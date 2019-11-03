@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useState } from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import Layout from "../components/Layout"
+import Layout from "../components/layout.js"
 
 export default ({ data: { desktop, mobile } }) => {
   if(typeof window === 'undefined') { global.window = {} }
