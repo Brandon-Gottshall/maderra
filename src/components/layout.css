@@ -5,9 +5,7 @@ body {
 }
 
 .background-img {
-  height: 100%;
-  min-height: 100vh;
-  top: 0;
+  height: 100vh;
 }
 
 .gradient {
@@ -47,6 +45,9 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+  .background-img {
+    height: 100%;
+  }
   .gradient {
     background: linear-gradient(rgba(50, 50, 50, 0) 40%, rgba(0, 0, 0, 1));
   }
