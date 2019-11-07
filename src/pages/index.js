@@ -51,7 +51,7 @@ export const query = graphql`
     },
     mobile: file(relativePath: { eq: "mobile-background.jpg" }) {
       childImageSharp {
-        fluid(maxWidth: 500) {
+        fluid(maxWidth: 375) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }
